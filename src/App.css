@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    background: #242424;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+
+.App{
+    text-align: center;
+    margin-top: 6%;  
+}
+
+.container-gifs {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width:1300px){
+    .container-gifs {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width:760px){
+    .container-gifs {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
+  
+.container-gifs div img {
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+  
+input[type="text"] {
+    font-size: inherit;
+    padding: 12px 20px;
+    outline: none;
+    border: solid 0px #000;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+  
+.error {
+    color: red;
+}
+  
+p.author {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 7px;
+    color: #000;
+}
+
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
