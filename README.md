@@ -26,7 +26,7 @@
 <p>El flujo de trabajo típico de la aplicación es el siguiente:</p>
 
 <ol>
-  <li>El usuario ingresa una palabra clave en la barra de búsqueda y presiona Enter o hace clic en el botón de búsqueda.</li>
+  <li>El usuario ingresa una palabra clave en la barra de búsqueda y presiona Enter.</li>
   <li>La aplicación captura la palabra clave ingresada y envía una solicitud a la API de GIPHY utilizando la palabra clave como parámetro de búsqueda.</li>
   <li>La API de GIPHY devuelve una lista de gifs relacionados con la palabra clave.</li>
   <li>La aplicación recibe la respuesta de la API y muestra los gifs en la interfaz de usuario.</li>
