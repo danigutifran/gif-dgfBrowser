@@ -48,4 +48,7 @@
 
 <p>Este proyecto de React con JavaScript utilizando la API de GIPHY proporciona una manera sencilla de buscar y mostrar gifs animados en una aplicación web. Puedes personalizar y expandir el proyecto para adaptarlo a tus propias necesidades y seguir explorando las posibilidades de React y la API de GIPHY. ¡Diviértete creando tu propia experiencia interactiva de gifs animados!</p>
 
+<img src="./public/cats.png" alt="cats">
+
+
 
